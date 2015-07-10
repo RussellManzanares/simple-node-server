@@ -1,0 +1,41 @@
+p {
+	margin: 0px auto;	/* this declaration makes the element center-aligned */
+	border: 1px solid black;
+	width: 80%;
+	font-size: 3em;
+	text-indent: 20px;
+}
+
+
+
+h1 { line-height: 1.5em; } /*specifies the line height*/
+h2 { font-size: 1.2ex; }
+h3 { word-spacing: 4ch; }
+h4 { font-size: 10rem; }
+h5 { border: 1px solid black; width: 30%; }
+
+
+.sup {
+    position: relative;
+    bottom: 1ex;
+}
+.sub {
+    position: relative;
+    bottom: -1ex;
+}
+
+
+#main {
+	font-size: 14px;
+}
+#main div {	/* Applies to all div tags inside the tag with the id main */
+	font-size: 1.2em;
+}
+
+
+h1#a { margin: 0.5in; }
+h2#b { line-height: 5cm; }
+h3#c { word-spacing: 1mm; }
+h4#d {font-size: 12pt; } 
+h5#e { font-size: 1pc; } 
+h6#f { font-size: 12px; } 

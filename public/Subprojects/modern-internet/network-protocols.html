@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <style>
+             .nav a{
+       position:relative;
+        top:40%;
+        left:2%;
+        text-align:center;
+        width:64;
+          text-decoration: none;
+        color:white;
+        font-family:helvetica;
+        padding:13.5;
+        background:transparent;
+        font-weight:100;
+   }
+   
+   a:hover{
+       background-color:	#696969;
+   }
+    .footer{
+       position:relative;
+       width:98.5%;
+       padding:1.3%;
+       bottom:8;
+       background:grey;
+   }
+   
+   #demo{
+       position:absolute;
+       right:20;
+       font-family:helvetica;
+       font-weight:100;
+       text-indent:30;
+       line-height:1.5;
+       color:black;
+       text-align:justify;
+       
+   }
+        </style>
+    </head>
+    <body>
+    
+     <script>
+function clickme() {
+  document.getElementById('demo').innerHTML = 'The internet communicates through the TCP/IP protocol. The TCP uses a set of rules to exchange messages with others in the  Internet. The IP address is what specifies the location of your unit. An IP address is unique to every device. There are other forms of communications protocol, however. But for this project. We only focus on the TCP/IP. This protocol dates back since the conception of the ARPANET. It was the first protocol, and certainly the last since it is still adopted now.' 
+}
+</script>
+
+<a href="#"
+onclick="clickme()" style="position:absolute; left: 50%; font-family:helvetica;">
+Click Me!</a>
+
+    <div  style="position:absolute;top:40;left:50%;padding:20%;background-color:grey;border-radius:5px;opacity: 0.5;">
+        </div>
+    <div style="position:absolute;top:40;left:50%;padding:20%;"><p id="demo" style="position:absolute;left:7%;top:7%"></p>
+        </div>
+        <img src="http://www.ie.com.sv/images/network_wires-1920x1200.jpg" width="1280" height="650"/>
+        	<div class="footer">
+	            <div class="Nav">
+	               	<a href="../modern-internet/index.html">Home</a>
+					<a href="../modern-internet/network-protocols.html">Protocols</a>
+					<a href="../modern-internet/email.html">Email</a>
+					<a href="../modern-internet/search.html">Search</a>
+					<a href="../modern-internet/blogging.html">Blogging</a>
+					<a href="../modern-internet/video-streaming.html">Streaming</a>
+					<a href="../modern-internet/social-networking.html">Social Networking</a>
+		</div>
+
+    </body>
+</html>
